@@ -1,0 +1,17 @@
+﻿
+User-Agent: *
+Disallow:
+Host: www.myhost.ru
+
+# Для всех, кроме Google и Yandex
+User-Agent: *
+Sitemap: httр://mysite.com/sitemap.xml
+
+# будет использована роботами Яндекса
+User-Agent: Yandex
+Sitemap: httр://mysite.com/sitemap.xml
+
+# будет использована роботами Google
+User-Agent: Googlebot
+Sitemap: httр://mysite.com/sitemap.xml
+
